@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title of the document</title>
+</head>
+
+<body>
+    <p id="timer">30</p>
+    <form>
+        <fieldset>
+            <legend>Select a maintenance drone</legend>
+
+            <div>
+                <input type="radio" id="huey" name="drone" value="Huey" checked />
+                <label for="huey">Huey</label>
+            </div>
+
+            <div>
+                <input type="radio" id="dewey" name="drone" value="Dewey" />
+                <label for="dewey">Dewey</label>
+            </div>
+
+            <div>
+                <input type="radio" id="louie" name="drone" value="Louie" />
+                <label for="louie">Louie</label>
+            </div>
+
+        </fieldset>
+        <button id="submit">Submit</button>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src='./assets/js/trivia.js'></script>
+    <div id="middle">
+        <br>
+        <div id="banner">Totally Trivial Trivia</div>
+        <button id="start">Play Game!</button>
+        <div id="game-zone"></div>
+</body>
+
+</html>
